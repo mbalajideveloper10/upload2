@@ -1,0 +1,26 @@
+.gradient{
+    width: 200px;
+    height:200px;
+    /* background: linear-gradient(orange,yellow,red); */
+     /* background: linear-gradient(to bottom,yellow,red,orange); */ 
+    /* background: linear-gradient(to left,orange,yellow,red); */
+    /* background: linear-gradient(to bottom,orange,yellow,red); */
+     /* background: linear-gradient(to top,orange,yellow,red);   */
+    /* background: linear-gradient(to left,#EA2027,#181464); */ 
+    /* background: linear-gradient(to bottom right,#EA2027,#181464); */
+    /* background: linear-gradient(to bottom left,#EA2027,#181464); */
+    /* background: linear-gradient(to top right,#EA2027,#181464); */
+    /* background: linear-gradient(to top left,#EA2027,#181464); */
+    /* background: linear-gradient(225deg,#EA2027,#181464); */
+    border-radius : 50%;
+     /* background: linear-gradient(-270deg,#EA2027,#181464); */
+    /* background: repeating-linear-gradient(to left,#EA2027 50% ,#181464 20%);   */
+    /* background: radial-gradient(red,yellow); */
+     background: radial-gradient(red,yellow,green); */
+    
+
+    
+
+    /* border-radius: 50%; */
+  
+}

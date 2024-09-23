@@ -1,0 +1,402 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+  }
+  body{
+    background: linear-gradient(to bottom right,#b78bdb,#757373);
+  }
+
+  header{display : flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    animation: header 1s ease-in-out;
+   } 
+
+nav li{
+    display : inline-block;
+    margin: 10px 20px;
+    font-weight:850;
+  }
+  nav img{
+    height: 20px;
+    width: 20px;
+  }
+  
+
+  @keyframes header{
+    0%{
+    transform: scale(1%);
+    }
+  }
+  .fixed1{
+   
+   margin-top: 0px;
+   padding: 10px 15px;
+   height: 0px;
+   width: 70px;
+   
+   }
+   .fixed1 img{
+    height: 30px;
+    height: 30px;
+   }
+  .fixed1 a :hover{
+    cursor: pointer;
+  }
+  .fixed1 img{
+    cursor: pointer;
+  }
+
+  
+
+.content1{
+    
+   /* display:grid;
+   grid-template-columns: 1fr 1fr 1fr ; */
+   display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   margin-top: 30px;
+}
+/* .content1 h1{
+  display: inline;
+ font-family: Arial, Helvetica, sans-serif;
+} */
+
+.image1 img{
+   height: 540px;
+   width: 280px;
+   animation: img1 1s ;
+   /* box-shadow: 10px; */
+   filter: drop-shadow(10px 10px 10px );
+}
+.image2 img{
+  filter: drop-shadow(10px 10px 10px );
+ 
+  animation: img2 1s;
+}
+
+
+@keyframes img1{
+  0%{
+    transform: scale(1%);
+  }
+ 
+}
+@keyframes img2{
+  0%{
+    transform: translateX(50%);
+  }
+  100%{
+    transform: rotate(-180deg);
+  }
+}
+
+
+
+
+
+.content2{
+  margin-top: 70px;
+  height:770px;
+  width: 900px;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  margin-left: 60px;
+
+}
+
+.content2 img{
+  height: 400px;
+  width: 700px;
+  border-radius: 5%;
+  filter: drop-shadow(10px 10px 10px);
+
+}
+
+.girlcontent{
+font-size: large;
+padding: 20px;
+
+}
+.content3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.content3-1{
+  margin-left: 2px;
+}
+.content3 img{
+  filter: drop-shadow(10px 10px 10px);
+  
+}
+.content3-2{
+  /* margin-right: 1px;
+  margin-top: 10px; */
+  padding: 20px;
+  gap: 20px;
+  letter-spacing: 2px;
+  line-height: -5px;
+}
+
+.content4{
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-top: 28px;
+  padding-left: 60px;
+  height: 130px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+.content5{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* grid-template-columns: 1fr 1fr; */
+  height: 500px;
+  width: 45%;
+  margin-left: 300px;
+  padding-left: 15px;
+}
+.content5 h5{
+  font-size: 20px;
+}
+.content5 h1{
+  font-size:50px;
+  margin-right: -80px;
+}
+.content5 p{
+  font-size: 17px;
+  margin-right: -80px;
+}
+.content5{
+  font-size: 30px;
+}
+
+.sticky1{
+  
+  bottom: 0px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 15px;
+  border:  0px solid black;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.sticky1 :hover{
+  color: transparent;
+   
+  color: rgb(156, 151, 151);
+}
+span{
+  text-decoration: underline;
+  color: orangered;
+  cursor: pointer;
+}
+.icons{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: azure;
+  padding: 20px 10px;
+  gap: 25px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.icons h1{
+justify-items:flex-start;
+color: rgb(255, 255, 255);
+
+font-family: Arial, Helvetica, sans-serif;
+padding-right: 500px;
+
+}
+
+.icons2{
+  display: flex;
+  justify-content: flex-end;
+  align-items:center ;
+  padding: 15px 15px ;
+  gap: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+
+/* .fixed{
+  position: fixed;
+ margin-right: 1px;
+  border: 1px solid rgb(203, 203, 212);
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  color: antiquewhite;
+  }  */
+
+  @media screen and (max-width:576px) {
+   
+    header{
+      /* flex-wrap: wrap; */
+      width: 100%;
+      font-size: 10px;
+    }
+    header h1{
+      font-size:20px;
+    }
+   
+    nav{
+      margin-top: -10px;
+   display: flex;
+    }
+     nav img{
+      margin-top:6px;
+     }
+
+     .fixed1 img{
+      height: 23px;
+      width: 23px;
+     }
+
+     .content1{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+     }
+
+     .image1 img{
+      height: 250px;
+      width: 140px;
+      margin-left: 130px;
+     }
+     .image2 img{
+      height: 170px;
+      width: 250px;
+      margin-left: 85px;
+     }
+
+
+     .content2{
+      /* display: flex;
+      justify-content: center;
+     
+      flex-direction: column;
+      flex-wrap: wrap; */
+      height: 500px;
+     
+     }
+
+     .content2 img{
+      height: 150px;
+      width: 360px;
+      margin-left: 30px;
+    }
+
+     .girlcontent{
+     margin-left: 100px;
+      
+     }
+     .girlcontent h1{
+      font-size: 25px;
+     }
+     .girlcontent h5{
+      margin-top: 15px;
+     }
+  
+    .girlcontent p{
+      margin-top:20px;
+      font-size: 15px;
+      width: 100px;
+     }
+
+     .content3{
+      display: flex;
+      flex-wrap: wrap;
+      height: 600px;
+     }
+     .content3-1 img{
+      height: 300px;
+      width: 185px;
+
+     }
+     .content3-2{
+      font-size: 10px;
+      margin-left:30px;
+     }
+     .content4{
+      /* flex-wrap: wrap;
+      text-align: justify; */
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      font-size:10px;
+      padding-left: 80px;
+     }
+
+     .content5{
+    
+      /* display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100px;
+      height: 1000px;
+      font-size:20px ;
+      margin-left: px; */
+
+      display: grid;
+      grid-template-rows:repeat(1,1fr);
+
+      /* width:100px; */
+
+     }
+
+     .content5 h5{
+      font-size: 10px;
+     }
+     
+     .content5 h1{
+      font-size: 10px;
+
+     }
+
+     .content5 p{
+      font-size: 10px;
+
+     }
+     .content5 h4{
+      font-size: 10px;
+
+     }
+     
+      
+      
+    
+
+
+     }
+  
+    
+
+     
+     
+     
+
+  
